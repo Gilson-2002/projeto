@@ -1,0 +1,533 @@
+.body{
+  background-color: #181A1B;
+}
+.foto_principal{
+  background-size: cover;
+  background-position: center;
+  min-height: 550px;
+ background-image: url(capa2.jpg);
+background-repeat: no-repeat;
+
+}
+
+.gambi{
+  background-color: black;
+  /* opacity: 0.3; */
+  height: 550px;
+  /* border: 1px solid red; */
+
+}
+
+.oo{
+  color: #AFA89E;
+
+}
+.tete{
+  /* margin-top: -15px; */
+  margin-right: 400px;
+  /* border: 1px solid red; */
+}
+#ooo{
+  color: #AFA89E;
+
+}
+#link{
+  margin-left: 250px;
+}
+
+.tudo{
+  position: absolute;
+
+display: flex;
+justify-content: center;
+align-items: flex-start;
+flex-wrap: wrap;
+  margin-top: 200px;
+  margin-left: 310px;
+
+}
+
+.box1:hover, .box2:hover, .box3:hover, .box4:hover{
+  box-shadow: 5px 5px 10px gray; /* Adiciona uma sombra quando o mouse passa por cima */
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+  flex: 1;
+  max-width: 300px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  background-color: black;
+  border-radius: 9px;
+  transition: box-shadow 0.3s;
+}
+
+.mensagem{
+   border: 1px solid green;
+  /* position: relative; */
+  /* margin-top: 50px; */
+  margin-top: 150px;
+}
+#hh{
+  margin-left: 310px;
+  color: white;
+
+}
+
+
+.tu{
+  /* text-align: center; */
+padding: 20px;
+  height: 100px;
+  margin-top: -400px;
+
+}
+#botao{
+  position: absolute;
+  margin-left: 355px;
+  margin-top: 62px;
+  border-radius: 20px;
+}
+#botao:hover{
+  background-color: green;
+}
+#icon{
+  position: absolute;
+  margin-left: 310px;
+  width: 60px;
+  height: 60px;
+  margin-top: 50px;
+}
+#icon2{
+  position: absolute;
+  /* margin-left: 310px; */
+  width: 45px;
+  margin-left: 15px;
+  /* height: 60px; */
+  margin-top: 3px;
+}
+#boximg{
+  width: 100px;
+  margin-top: 15px;
+  display: block;
+
+  /* height: 50px; */
+}
+.nome{
+/* border: 1px solid green; */
+  color: white;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.a1{
+  /* border: 1px solid red; */
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.a2{
+  border: 1px solid green;
+
+}
+#dede{
+  text-decoration: none;
+  /* display: none; */
+}
+
+#paragrafo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #AFA89E;
+  /* border: 1px solid green; */
+  /* margin-top: 20px; */
+  width: 250px;
+}
+#paragrafo1{
+display: none;
+}
+.eee{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+  .foto_principal{
+    width: 100vh;
+    /* border: 1px solid red; */
+  }
+  #dede1{
+    text-decoration: none;
+    display: none;
+  }
+  #navnav {
+      display: none;
+  }
+  .tu{
+    /* border: 1px solid red; */
+    width: 100vh;
+  }
+  #hh{
+    margin-left: 20px;
+    color: white;
+
+  }
+
+  #botao{
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 62px;
+    border-radius: 20px;
+  }
+
+  #icon{
+    position: absolute;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    margin-top: 50px;
+  }
+
+  .tudo{
+    /* border: 1px solid green; */
+    width: 100vh;
+    margin-left: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  #paragrafo{
+display: none;
+  }
+}
+
+@media (max-width: 1280px) {
+  .foto_principal{
+    width: 100vw;
+    /* border: 1px solid red; */
+  }
+  #dede1{
+    text-decoration: none;
+    display: none;
+  }
+  #navnav {
+      display: none;
+  }
+  .tudo{
+    /* border: 1px solid red; */
+    width: 100%;
+     margin-left: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .tu{
+    /* border: 1px solid red; */
+    width: 100vw;
+  }
+  #hh{
+    margin-left: 5px;
+    color: white;
+
+  }
+
+  #botao{
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 62px;
+    border-radius: 20px;
+  }
+
+  #icon{
+    position: absolute;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    margin-top: 50px;
+  }
+  #paragrafo1{
+display: none;
+  }
+}
+@media (min-width: 2047px) and (max-width: 2048px){
+  .foto_principal{
+    width: 100vw;
+    height: 50vh;
+    /* border: 1px solid red; */
+  }
+  #navnav {
+      display: none;
+  }
+  .tudo{
+    /* border: 1px solid red; */
+    width: 100%;
+     margin-left: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .tu{
+    /* border: 1px solid red; */
+    margin-top: -25%;
+    width: 100vw;
+  }
+  #boximg{
+    width: 150px;
+    margin-top: 15px;
+    display: block;
+
+    /* height: 50px; */
+  }
+  #paragrafo{
+display: none;
+  }
+  #paragrafo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #AFA89E;
+    /* border: 1px solid green; */
+    /* margin-top: 20px; */
+    width: 350px;
+    /* border: 1px solid green; */
+    margin-top: 20px;
+  }
+  #dede{
+  text-decoration: none;
+
+
+
+}
+h4.nome{
+  font-size: 40px;
+}
+/* #dede{
+  text-decoration: none;
+  display: none;
+} */
+
+
+  #hh{
+    margin-left: 5px;
+    color: white;
+
+  }
+
+  #botao{
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 62px;
+    border-radius: 20px;
+  }
+
+  #icon{
+    position: absolute;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    margin-top: 50px;
+  }
+  .box1,
+  .box2,
+  .box3,
+  .box4 {
+    flex: 1;
+    max-width: 500px;
+    height: 600px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    border-radius: 9px;
+    transition: box-shadow 0.3s;
+    border: 1px solid green;
+  }
+}
+/* ============================================== */
+/* LOGIN.PHP */
+
+
+/* Adicione esta seção ao seu arquivo CSS */
+
+.foto_login {
+  height: 100vh;
+  width: 70%;
+  display: inline-block;
+  background-image: url(capa5.jpg);
+  border-radius: 20px 0 0 20px;
+}
+
+.form_login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 30%;
+  box-sizing: border-box;
+  float: right;
+}
+
+.form_input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding-top: -30px; */
+  margin-top: -160px;
+}
+
+.input,
+.input2,
+.form-check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#inp,
+#inp2 {
+  width: 100%;
+  max-width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #333333;
+  color: white;
+}
+
+#inp2 {
+  max-width: 250px;
+}
+
+#text_login {
+  color: #AFA89E;
+  margin-bottom: 10px;
+}
+
+#label {
+  color: white;
+}
+
+.logo_gambi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.h_gambi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#logo {
+  width: 150px;
+  max-width: 100%;
+}
+
+/* CSS para tornar a página responsiva */
+@media (max-width: 768px) {
+  .foto_login {
+    display: none; /* Ocultar a imagem em telas menores */
+  }
+  .form_espaco{
+    /* border: 1px solid red; */
+    width: 50px;
+    height: 300px;
+  }
+
+  .form_login {
+    width: 100%;
+  float: none; /* Remover float em telas menores */
+  border-radius: 20px; /* Adicionar borda arredondada no canto superior direito */
+  margin-bottom: 20px; /* Adicionar margem inferior */
+  padding-right: 10px; /* Adicionar um pequeno espaço à direita */
+  padding-left: 10px; /* Adicionar um pequeno espaço à esquerda */
+  padding-top: 20; /* Remover espaço superior */
+  padding-bottom: 20px; /* Adicionar espaço inferior */
+  justify-content: flex-start; /* Alinhar o conteúdo ao topo */
+  align-items: center;
+  text-align: center; /* Centralizar o texto */
+  min-height: 100vh; /* Definir altura mínima da tela cheia */
+  max-width: none; /* Remover a largura máxima */
+  box-sizing: border-box;
+}
+
+  .form_input {
+
+    padding-top: 0; /* Remover espaço superior */
+    padding-bottom: 20px; /* Adicionar espaço inferior */
+  }
+
+  #logo {
+    width: 100px;
+    max-width: 100%;
+  }
+}
+
+/* =================================================== */
+/* quadro.php */
+
+.foto_principal_quadro{
+  background-size: cover;
+background-position: center;
+min-height: 550px;
+background-image: url(capa7.jpg);
+background-repeat: no-repeat;
+}
+#nome_user{
+  position: absolute;
+  margin-left: 390px;
+  margin-top: 62px;
+  border-radius: 20px;
+  color: white
+}
+.tu_quadro{
+  /* text-align: center; */
+padding: 20px;
+  height: 100px;
+  margin-top: -550px;
+  /* border: 1px solid red; */
+
+}
+#hh_quadro{
+  margin-left: 310px;
+  color: white;
+
+}
+#icon_quadro{
+  position: absolute;
+  margin-left: 310px;
+  width: 60px;
+  height: 60px;
+  margin-top: 50px;
+}
+.tudo_quadro{
+  position: absolute;
+
+display: flex;
+justify-content: center;
+align-items: flex-start;
+flex-wrap: wrap;
+  margin-top: 200px;
+  margin-left: 310px;
+  border: 1px solid red;
+
+}
